@@ -1,0 +1,9 @@
+.text-kanan {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: right;
+}
+th{
+    font-weight: normal;
+}

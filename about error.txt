@@ -1,0 +1,10 @@
+Form using ajax
+form::open(['id'=>'','name'=>''])
+
+$.ajaxSetup({
+          headers: {
+              'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+          }
+      });
+
+using metode POST
